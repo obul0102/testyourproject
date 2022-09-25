@@ -11,7 +11,7 @@ function Vaccinationdetails() {
 
     var emailPass = localStorage.getItem("userEmailId");
     const getVCDetails = () => {
-        return fetch("http://3.90.253.77:8080/user-service/api/v1/user/alluser/" + emailPass, {
+        return fetch("http://3.19.237.179 :8080/user-service/api/v1/user/alluser/" + emailPass, {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
